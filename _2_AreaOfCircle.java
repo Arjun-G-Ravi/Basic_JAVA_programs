@@ -6,6 +6,6 @@ public class _2_AreaOfCircle {
         System.out.println("Enter the radius: ");
         double r = sc.nextDouble();
         System.out.println("Area of circle is " + 3.14*r*r);
-            
+        sc.close(); // optional
     }
 }
